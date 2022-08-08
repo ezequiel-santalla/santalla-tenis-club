@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Body */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(237, 237, 237);
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: linear-gradient(#00509D, #1A76BC, #1E91D0);
+  border-bottom: 0.1rem solid rgb(255, 113, 52);
+}
+
+header .logo-principal {
+  width: 30vw;
+  margin: 1rem;
+}
+
+/* Nav */
+nav {
+  background: rgb(49, 46, 46);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+nav ul a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 3.3vw;
+  font-weight: bold;
+  padding: 3vw;
+  width: 100%;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  background-color: rgb(112, 104, 104);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 0.1rem solid rgb(245, 138, 92);
+}
+
+.maps {
+  width: 100%;
+  height: 50%;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.footer li a {
+  font-size: 3vw;
+  font-weight: bold;
+  padding: 1vw;
+  color: rgb(0, 0, 0);
+}
+
+.logos-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logos-redes img {
+  width: 5vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.logos-otros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1vw;
+}
+
+.logos-otros .qr-afip {
+  width: 5vw;
+  margin-left: 10vw;
+}
+
+.logos-otros .marca {
+  width: 15vw;
+  margin-right: 10vw;
+}
+
+/* Section 1 (todas las paginas)*/
+.deportes-sec1, .fotos-sec1, .elClub-sec1, .contacto-sec1, .ubicacion-sec1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.deportes-sec1 h1, .fotos-sec1 h1, .elClub-sec1 h1, .contacto-sec1 h1, .ubicacion-sec1 h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 5.5vw;
+  font-weight: 600;
+  margin: 0vw 0vw 1vw 0vw;
+  color: rgb(0, 0, 0);
+}
+
+.deportes-sec2 img, .elClub-sec2 img, .ubicacion-sec2 img, .fotos-sec2 img, .contacto-sec2 img {
+  width: 100%;
+}
+
+/* Color listas */
+ul a {
+  color: rgb(255, 255, 255);
+}
+
+/* Contenedor general index*/
+.container-body-index {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 80vw 80vw 100vw;
+}
+
+
+/* Section 1 */
+.index-sec1 {
+  background-image: url(../img/cancha-1-tenis.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-titulos-sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgb(0, 0, 0, 0.6);
+  color: rgb(223, 240, 255);
+  border-radius: 0.15rem;
+  padding: 2vw;
+  margin: 0vw 0vw 10vw 30vw;
+  width: 50%;
+  height: 40%;
+}
+
+.titulo-index-sec1 {
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 2vw;
+}
+
+.subtitulo-index-sec1 {
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.container-parrafo-index-sec1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.6);
+  color: rgb(223, 240, 255);
+  border-radius: 0.15rem;
+  width: 80%;
+  height: 20%;
+  padding: 2vw;
+}
+
+.parrafo-index-sec1 {
+  font-size: 4vw;
+}
+
+/* Section 2 */
+.index-sec2 {
+  background-image: url(../img/cancha-de-futbol.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-titulos-sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.6);
+  color: rgb(223, 240, 255);
+  border-radius: 0.15rem;
+  margin: 0vw 30vw 10vw 0vw;
+  width: 50%;
+  height: 35%;
+}
+
+.titulo-index-sec2 {
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 2vw;
+}
+
+.subtitulo-index-sec2 {
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.container-parrafo-index-sec2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.6);
+  color: rgb(223, 240, 255);
+  border-radius: 0.15rem;
+  width: 80%;
+  height: 20%;
+  padding: 2vw;
+}
+
+.parrafo-index-sec2 {
+  font-size: 4vw;
+}
+
+/* Contenedor general deportes*/
+.container-body-deportes {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 15vw 217vw 100vw;
+}
+
+.container-art1-deportes-sec2, .container-art2-deportes-sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+}
+
+.container-text-art1-deportes, .container-text-art2-deportes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3.5vw 0vw 5vw 0vw;
+}
+
+.container-text-art1-deportes h2, .container-text-art2-deportes h2 {
+  color: rgb(245, 138, 92);
+  margin-bottom: 3vw;
+}
+
+/* Contenedor general fotos */
+.container-body-fotos {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 15vw 200vw 100vw;
+}
+
+/* Contenedor general el club */
+.container-body-elClub {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 15vw 125vw 100vw;
+}
+
+/* Section 2 */
+.container-text-art1-elClub p, .container-text-art1-ubicacion p {
+  font-size: 3.5vw;
+  margin: 3vw 6vw 3vw 6vw;
+}
+
+/* Contenedor general contacto */
+.container-body-contacto {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 15vw 65vw 100vw;
+}
+
+/* Section 2 */
+.container-art1-contacto-sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0vw 3vw 2vw 3vw;
+  font-size: 3vw;
+}
+
+.container-subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.container-art1-contacto-sec2 .container-form .form-label, .form-input, .form-textarea {
+  font-size: 2.5vw;
+}
+
+.container-art1-contacto-sec2 .container-form .btn-submit {
+  font-size: 2.5vw;
+  margin-top: 3vw;
+  cursor: pointer;
+}
+
+.container-art1-contacto-sec2 .container-form .btn-submit:hover {
+  background-color: rgb(209, 206, 206);
+}
+
+/* Contenedor general ubicacion */
+.container-body-ubicacion {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30vw 10vw 15vw 90vw 100vw;
+}
+
