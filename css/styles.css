@@ -28,6 +28,11 @@ header {
 header .logo-principal {
   width: 30vw;
   margin: 1rem;
+  transition: all 0.1s;
+}
+
+header .logo-principal:hover {
+  width: 31vw;
 }
 
 /* Nav */
@@ -50,7 +55,7 @@ nav ul a {
   align-items: center;
   font-size: 3.3vw;
   font-weight: bold;
-  padding: 3vw;
+  padding: 2.7vw 3.6vw 2.7vw 3.6vw;
   width: 100%;
 }
 
