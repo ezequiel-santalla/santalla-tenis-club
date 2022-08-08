@@ -301,7 +301,7 @@ ul a {
 .container-body-fotos {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30vw 10vw 15vw 450vw 100vw;
+  grid-template-rows: 30vw 10vw 15vw 475vw 100vw;
 }
 
 .container-art1-fotos-sec2 {
@@ -312,13 +312,13 @@ ul a {
 }
 
 .container-art1-fotos-sec2 img {
-  width: 80%;
+  width: 85%;
   padding: 1vw;
   transition: all 0.1s;
 }
 
 .container-art1-fotos-sec2 img:hover {
-  width: 85%;
+  width: 90%;
 }
 
 /* Contenedor general el club */
