@@ -53,9 +53,9 @@ nav ul a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 3.3vw;
+  font-size: 3vw;
   font-weight: bold;
-  padding: 2.7vw 3.6vw 2.7vw 3.6vw;
+  padding: 3vw 3.7vw 3vw 3.7vw;
   width: 100%;
 }
 
@@ -85,7 +85,7 @@ nav ul a:hover {
 }
 
 .footer li a {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: bold;
   padding: 1vw;
   color: rgb(0, 0, 0);
