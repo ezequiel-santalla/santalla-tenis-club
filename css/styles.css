@@ -110,7 +110,7 @@ nav ul a:hover {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 3vw;
+  margin-top: 2vh;
 }
 
 .logos-otros .qr-afip {
@@ -318,7 +318,7 @@ ul a {
 }
 
 .container-art1-fotos-sec2 img:hover {
-  width: 82%;
+  width: 85%;
 }
 
 /* Contenedor general el club */
