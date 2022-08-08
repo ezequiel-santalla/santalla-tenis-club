@@ -110,7 +110,7 @@ nav ul a:hover {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1vw;
+  margin: 3vw;
 }
 
 .logos-otros .qr-afip {
