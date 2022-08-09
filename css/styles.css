@@ -385,12 +385,12 @@ ul a {
   grid-template-rows: 30vw 10vw 15vw 90vw 100vw;
 }
 
+/* Media queries 768px */
+@media screen and (min-width: 768px) {
+  
+}
 
-
-
-
-/* Media queries */
+/* Media queries 1200px */
 @media screen and (min-width: 1200px) {
   
-  }
 }
