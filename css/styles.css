@@ -137,8 +137,8 @@ body {
   width: 100%;
   font-size: 5.5vw;
   font-weight: 600;
-  margin: 0vw 0vw 1vw 0vw;
   color: rgb(0, 0, 0);
+  background-color: rgb(161, 161, 161);
 }
 
 .deportes-sec2 img, .elClub-sec2 img, .ubicacion-sec2 img, .fotos-sec2 img, .contacto-sec2 img {
@@ -157,7 +157,6 @@ ul a {
   grid-template-columns: 100%;
   grid-template-rows: 30vw 10vw 80vw 80vw 100vw;
 }
-
 
 /* Section 1 */
 .index-sec1 {
@@ -301,14 +300,18 @@ ul a {
 .container-body-fotos {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30vw 10vw 15vw 475vw 100vw;
+  grid-template-rows: 30vw 10vw 15vw 480vw 100vw;
 }
 
-.container-art1-fotos-sec2 {
+.fotos-sec2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.container-art1-fotos-sec2 .img-item {
+  display: flex;
+  justify-content: center;
 }
 
 .container-art1-fotos-sec2 img {
@@ -325,7 +328,7 @@ ul a {
 .container-body-elClub {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30vw 10vw 15vw 125vw 100vw;
+  grid-template-rows: 30vw 10vw 15vw 165vw 100vw;
 }
 
 /* Section 2 */
@@ -338,7 +341,7 @@ ul a {
 .container-body-contacto {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30vw 10vw 15vw 65vw 100vw;
+  grid-template-rows: 30vw 10vw 15vw 60vw 100vw;
 }
 
 /* Section 2 */
@@ -346,6 +349,7 @@ ul a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 2vw;
   align-items: center;
   font-size: 2.5vw;
 }
@@ -353,6 +357,7 @@ ul a {
 .container-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 0vw 3vw 2vw 3vw;
   font-size: 3vw;
 }
@@ -477,12 +482,10 @@ ul a {
   
   .qr-afip {
     width: 2.5vw;
-    margin-left: 5vw;
   }
 
   .marca {
     width: 7vw;
-    margin-right: 5vw;
   }
 
   /* Index */
@@ -490,28 +493,191 @@ ul a {
     grid-template-rows: 6.3vw 2.5vw 35vw 35vw 23vw;
   }
 
+  .container-titulos-sec1 {
+    width: 20%;
+    margin: 0vw 0vw 5vw 65vw;
+    justify-content: center;
+  }
+
+  .index-sec1 {
+    margin-bottom: 10vh;
+  }
+
+  .titulo-index-sec1 {
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 0vw;
+    margin-bottom: 1.5vw;
+  }
+  
+  .subtitulo-index-sec1 {
+    text-align: center;
+    font-size: 1vw;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+  
+  .container-parrafo-index-sec1 {
+    width: 20%;
+    margin: 0vw 0vw 0vw 65vw;
+    justify-content: center;
+    
+  }
+  
+  .parrafo-index-sec1 {
+    font-size: 1vw;
+  }
+
+  .container-titulos-sec2 {
+    width: 20%;
+    margin: 0vw 65vw 5vw 0vw;
+  }
+  
+  .titulo-index-sec2 {
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 0vw;
+    margin-bottom: 1.5vw;
+  }
+  
+  .subtitulo-index-sec2 {
+    text-align: center;
+    font-size: 1vw;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+  
+  .container-parrafo-index-sec2 {
+    width: 20%;
+    margin: 0vw 65vw 0vw 0vw;
+    justify-content: center;
+  }
+  
+  .parrafo-index-sec2 {
+    font-size: 1vw;
+  }
+
   /* Deportes */
   .container-body-deportes {
-    grid-template-rows: 6.3vw 2.5vw 4vw 220vw 23vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 48vw 23vw;
+  }
+
+  .deportes-sec2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  .deportes-sec2 img {
+    padding-top: 2vw;
+    width: 92%;
+  }
+
+  .container-art1-deportes-sec2, .container-art2-deportes-sec2 {
+    font-size: 1vw;
+  }
+  
+  .container-text-art1-deportes, .container-text-art2-deportes {
+    padding: 0vw;
+  }
+  
+  .container-text-art1-deportes h2, .container-text-art2-deportes h2 {
+    margin: 1.5vw 0vw 1vw 0vw;
   }
 
   /* Fotos */
   .container-body-fotos {
-    grid-template-rows: 6.3vw 2.5vw 4vw 35vw 23vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 38vw 23vw;
+  }
+
+  .container-art1-fotos-sec2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   /* El club */
   .container-body-elClub {
-    grid-template-rows: 6.3vw 2.5vw 4vw 35vw 23vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 37vw 23vw;
   }
 
+  .container-art1-elClub-sec2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .container-text-art1-elClub {
+    margin: 6vw 0vw 0vw 5vw;
+  }
+  
+  .container-text-art1-elClub p {
+    width: 80%;
+    margin: 0vw 0vw 1.5vw 0vw;
+    font-size: 1vw;
+  }
+  
+  .elClub-sec2 img {
+    width: 50%;
+    padding: 1.5vw 5vw 0vw 0vw;
+  }
+  
   /* Contacto */
   .container-body-contacto {
-    grid-template-rows: 6.3vw 2.5vw 4vw 35vw 23vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 25vw 23vw;
+  }
+
+  .container-art1-contacto-sec2 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0vw 0vw 4vw 1.9vw;
+    margin: 0;
+  }
+
+  .container-form {
+    padding: 1vw;
+    font-size: 1.3vw;
+    width: 40%;
+    margin-top: 2vw;
+  }
+  
+  .container-subtitle {
+    margin-bottom: 2vw;
+  }
+  
+  .container-art1-contacto-sec2 .container-form .form-label, .form-input, .form-textarea {
+    font-size: 1vw;
+  }
+  
+  .container-art1-contacto-sec2 .container-form .btn-submit {
+    font-size: 1vw;
+    margin-top: 1vw;
+    cursor: pointer;
   }
 
   /* Como llegar */
   .container-body-ubicacion {
-    grid-template-rows: 6.3vw 2.5vw 4vw 35vw 45vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 30vw 23vw;
+  }
+
+  .container-art1-ubicacion-sec2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .container-text-art1-ubicacion {
+    margin: 2vw 0vw 0vw 5vw;
+  }
+  
+  .container-text-art1-ubicacion p {
+    width: 80%;
+    margin: 0vw 0vw 1.5vw 0vw;
+    font-size: 1vw;
+  }
+  
+  .ubicacion-sec2 img {
+    width: 50%;
+    padding: 1.5vw 5vw 0vw 0vw;
   }
 }
