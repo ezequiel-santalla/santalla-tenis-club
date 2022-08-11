@@ -422,7 +422,6 @@ ul a {
   .deportes-sec1 h1, .fotos-sec1 h1, .elClub-sec1 h1, .contacto-sec1 h1, .ubicacion-sec1 h1 {
     justify-content: flex-start;
     padding-left: 3vw;
-    height: 100%;
     font-size: 1.7vw;
   }
 
@@ -442,7 +441,6 @@ ul a {
     font-size: 1vw;
     font-weight: bold;
     padding: 1vw;
-    color: rgb(0, 0, 0);
   }
 
   .maps {
