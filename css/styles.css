@@ -439,8 +439,6 @@ ul a {
   
   .footer li a {
     font-size: 1vw;
-    font-weight: bold;
-    padding: 1vw;
   }
 
   .maps {
@@ -450,25 +448,15 @@ ul a {
   
   .container-column-footer {
     justify-content: center;
-    height: 100%;
     width: 50%;
   }
 
   .container-column-footer ul {
-    justify-content: center;
     padding: 5vw 5vw 2vw 5vw;
   }
   
-  .logos-redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
   .logos-redes img {
-    width: 2.5vw;
+    width: 2.2vw;
     margin: 0vw 0.5vw 0vw 0.5vw;
   }
   
@@ -477,11 +465,11 @@ ul a {
   }
   
   .qr-afip {
-    width: 2.5vw;
+    width: 2.2vw;
   }
 
   .marca {
-    width: 7vw;
+    width: 6vw;
   }
 
   /* Index */
@@ -641,6 +629,10 @@ ul a {
   .container-subtitle {
     margin-bottom: 2vw;
   }
+
+  .form-subtitle {
+    font-size: 1.3vw;
+  }
   
   .container-art1-contacto-sec2 .container-form .form-label, .form-input, .form-textarea {
     font-size: 1vw;
@@ -659,7 +651,7 @@ ul a {
 
   .container-art1-ubicacion-sec2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   
   .container-text-art1-ubicacion {
