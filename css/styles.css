@@ -387,7 +387,7 @@ ul a {
 .container-body-ubicacion {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 30vw 10vw 15vw 90vw 100vw;
+  grid-template-rows: 30vw 10vw 15vw 80vw 100vw;
 }
 
 /* Media queries 768px */
