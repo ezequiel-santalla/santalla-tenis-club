@@ -604,7 +604,7 @@ ul a {
   
   /* Contacto */
   .container-body-contacto {
-    grid-template-rows: 6.3vw 2.5vw 4vw 21vw 23vw;
+    grid-template-rows: 6.3vw 2.5vw 4vw 23vw 23vw;
   }
 
   .container-art1-contacto-sec2 {
