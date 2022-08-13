@@ -31,7 +31,7 @@ body {
 }
 
 .header .logo-principal:hover {
-  width: 30.5vw;
+  transform: scale(1.04);
 }
 
 /* Nav */
@@ -319,7 +319,7 @@ ul a {
 }
 
 .container-art1-fotos-sec2 img:hover {
-  width: 90%;
+  transform: scale(1.05);
 }
 
 /* Contenedor general el club */
@@ -575,6 +575,10 @@ ul a {
   .container-art1-fotos-sec2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .container-art1-fotos-sec2 img:hover {
+    transform: scale(1.15);
   }
 
   /* El club */
