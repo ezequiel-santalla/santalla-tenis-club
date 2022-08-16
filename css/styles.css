@@ -194,6 +194,17 @@ ul a {
   margin: 0;
 }
 
+/* Separador de secciones */
+.container-separador {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo-separador {
+  padding: 2vw 0vw 2vw 0vw;
+}
+
 /* Section 2 */
 .index-sec2 {
   background-image: url(../img/cancha-de-futbol.jpg);
@@ -425,10 +436,6 @@ ul a {
     padding: 3.5vw 1.5vw 3.5vw 1.5vw;
   }
 
-  .index-sec1 {
-    margin-bottom: 10vh;
-  }
-
   .titulo-index-sec1 {
     text-align: center;
     font-size: 2vw;
@@ -448,6 +455,11 @@ ul a {
   
   .parrafo-index-sec1 {
     font-size: 1vw;
+  }
+
+  .logo-separador {
+    padding: 1.5vw 0vw 1.5vw 0vw;
+    width: 8vw;
   }
 
   .container-titulos-sec2 {
