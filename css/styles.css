@@ -82,6 +82,10 @@
   color: rgb(0, 0, 0);
 }
 
+.footer li a:hover {
+  text-decoration: underline;
+}
+
 .logos-redes {
   display: flex;
   flex-direction: row;
@@ -458,7 +462,7 @@ ul a {
   }
 
   .logo-separador {
-    padding: 1.5vw 0vw 1.5vw 0vw;
+    padding: 1vw 0vw 1vw 0vw;
     width: 8vw;
   }
 
