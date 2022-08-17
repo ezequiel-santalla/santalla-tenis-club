@@ -198,13 +198,6 @@ ul a {
   margin: 0;
 }
 
-/* Separador de secciones */
-.container-separador {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
-}
-
 .logo-separador {
   padding: 2vw 0vw 2vw 0vw;
 }
