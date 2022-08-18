@@ -20,7 +20,7 @@
 .header .logo-principal {
   width: 25vw;
   margin: 1rem;
-  transition: all 0.1s;
+  transition: linear 0.5s;
 }
 
 .header .logo-principal:hover {
@@ -50,7 +50,7 @@
   font-weight: bold;
   text-decoration: none;
   margin: 0;
-  padding: 2.5vw 3.8vw 2.5vw 3.8vw;
+  padding: 2.5vw 4.1vw 2.5vw 4.1vw;
   width: 100%;
 }
 
@@ -288,11 +288,11 @@ ul a {
 }
 
 .img-item {
+  transition: linear 0.2s;
   margin-bottom: 3vw;
 }
 
-.img-item img:hover {
-  transition: all 0.1s;
+.img-item:hover {
   transform: scale(1.05);
 }
 
@@ -499,7 +499,7 @@ ul a {
 
   .deportes-sec2 img {
     height: 45%;
-    width: 60%;
+    width: 65%;
     margin: 1vw 0vw 1vw 0vw;
   }
 
@@ -526,6 +526,7 @@ ul a {
   }
 
   .img-item {
+    transition: linear 0.2s;
     margin: 1.75vw 1.5vw 1.75vw 1.5vw;
   }
 
@@ -534,8 +535,7 @@ ul a {
   }
 
   .img-item img:hover {
-    transition: all 0.1s;
-    transform: scale(1.15);
+    transform: scale(1.05);
   }
 
   /* El club */
