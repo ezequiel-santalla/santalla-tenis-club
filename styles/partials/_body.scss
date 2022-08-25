@@ -1,0 +1,20 @@
+.bg-color {
+  font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
+  background: $backgroundBody;
+  .row-fluid {
+    padding: 0;
+  }
+  .h1-container {
+    background-color: $backgroundH1;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 1rem 1rem 1rem 0rem;
+    }
+  }
+}
+
+
+
+

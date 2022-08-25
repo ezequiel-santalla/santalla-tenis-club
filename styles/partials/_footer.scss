@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.1rem solid rgb(255, 113, 52);
+  .maps {
+    padding: 0;
+  }
+  div {
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 0rem 0rem 0rem;
+      li {
+        a {
+          font-size: 0.9rem;
+          font-weight: bold;
+          text-decoration: none;
+          padding: 0.5rem 0.5rem 1rem 0.5rem;
+          color: rgb(0, 0, 0);
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .logos-redes {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 1.8rem;
+        margin: 0vw 1.5vw 0vw 1.5vw;
+      }
+    }
+    .logos-otros {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1rem;
+      padding-bottom: 1rem;
+      .qr-afip {
+        width: 1.5rem;
+      }
+      .marca {
+        width: 5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+  }
+}

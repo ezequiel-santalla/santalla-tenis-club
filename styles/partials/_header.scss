@@ -1,0 +1,14 @@
+.header {
+  background: $backgroundHeader;
+  border-bottom: 0.1rem solid rgb(255, 113, 52);
+  .logo-principal {
+    width: 7rem;
+    margin: 1rem 1rem 1rem 1.7rem;
+    transition: linear 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+

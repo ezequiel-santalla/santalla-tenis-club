@@ -1,0 +1,28 @@
+.elClub-sec2 {
+  article {
+    padding: 0;
+    div {
+      p {
+        font-size: 1rem;
+        margin: 1rem 1.5rem 1rem 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .elClub-sec2 {
+    article {
+      display: flex;
+      flex-direction: row-reverse;
+      img {
+        width: 50%;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+}
