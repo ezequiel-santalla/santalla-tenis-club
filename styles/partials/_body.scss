@@ -6,6 +6,7 @@
     padding: 0;
   }
   .h1-container {
+    background: map-get($styles, backgroundH1);
     h1 {
       margin: 0;
       font-size: 1.5rem;

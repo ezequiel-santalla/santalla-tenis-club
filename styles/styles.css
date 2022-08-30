@@ -21,6 +21,9 @@
 .bg-color .row-fluid {
   padding: 0;
 }
+.bg-color .h1-container {
+  background: rgb(165, 165, 165);
+}
 .bg-color .h1-container h1 {
   margin: 0;
   font-size: 1.5rem;
