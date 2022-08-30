@@ -1,0 +1,8 @@
+.boton {
+  @extend %botonBase;
+  background: map-get($styles, secondaryColor);
+  color: map-get($styles, primaryColor );
+  &:hover {
+    background-color: rgb(69, 69, 69);
+  }
+}

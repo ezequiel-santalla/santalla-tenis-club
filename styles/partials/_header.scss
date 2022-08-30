@@ -1,5 +1,5 @@
 .header {
-  background: $backgroundHeader;
+  background: map-get($styles, backgroundHeader);
   border-bottom: 0.1rem solid rgb(255, 113, 52);
   .logo-principal {
     width: 7rem;

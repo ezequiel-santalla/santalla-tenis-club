@@ -1,5 +1,5 @@
 .navbar {
-  background-color: $backgroundNav;
+  background-color: map-get($styles, backgroundNav);
   ul {
     a {
       &:hover {
