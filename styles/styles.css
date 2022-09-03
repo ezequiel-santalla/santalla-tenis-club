@@ -89,17 +89,15 @@
 .footer div .logos-otros {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 1rem;
-  padding-bottom: 1rem;
 }
 .footer div .logos-otros .qr-afip {
   width: 1.5rem;
 }
 .footer div .logos-otros .marca {
   width: 5rem;
-  margin-left: 20rem;
 }
 
 @media (min-width: 768px) {

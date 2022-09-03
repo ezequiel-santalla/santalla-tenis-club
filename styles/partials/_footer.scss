@@ -30,15 +30,13 @@
       }
     }
     .logos-otros {
-      @include display($direction: row, $justify: space-around, $align: center);
+      @include display($direction: row, $justify: space-between, $align: center);
       margin: 1rem;
-      padding-bottom: 1rem;
       .qr-afip {
         width: 1.5rem;
       }
       .marca {
         width: 5rem;
-        margin-left: 20rem;
       }
     }
   }
