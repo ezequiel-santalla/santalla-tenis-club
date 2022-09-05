@@ -297,7 +297,7 @@ div .logo-separador {
 }
 .fotos-sec2 article .img-item {
   transition: linear 0.2s;
-  margin-bottom: 3vw;
+  margin-bottom: 1rem;
 }
 .fotos-sec2 article .img-item img {
   padding: 1rem 1.5rem 1rem 1.5rem;
